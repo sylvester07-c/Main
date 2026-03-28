@@ -13,6 +13,10 @@
 
          Cylinder cylinder = new Cylinder(5, 10);
          System.out.println(cylinder.getVolume());
+
+         SmartKitchen kitchen = new SmartKitchen();
+         kitchen.getCoffeeMaker().setHasWorkToDo(true);
+         kitchen.getCoffeeMaker().brewCoffee();
      }
 
      public static void printInfomation(String string){
