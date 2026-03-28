@@ -7,6 +7,12 @@
 
              System.out.printf("%6d\n" , i);
          }
+
+         Circle circle = new Circle(10);
+         System.out.println(circle.getArea());
+
+         Cylinder cylinder = new Cylinder(5, 10);
+         System.out.println(cylinder.getVolume());
      }
 
      public static void printInfomation(String string){
