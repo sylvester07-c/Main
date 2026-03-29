@@ -1,5 +1,4 @@
-public class Bed{
-    // write code here
+public class Bed {
 
     private String style;
     private int pillows;
@@ -16,10 +15,10 @@ public class Bed{
     }
 
     public void make() {
-        System.out.println("The bed is made.");
+        System.out.print("Bed -> Making | ");
     }
 
-    public String getStyle(){
+    public String getStyle() {
         return style;
     }
 
@@ -27,7 +26,7 @@ public class Bed{
         return pillows;
     }
 
-    public int getHeight(){
+    public int getHeight() {
         return height;
     }
 
@@ -35,8 +34,7 @@ public class Bed{
         return sheets;
     }
 
-    public int getQuilt(){
+    public int getQuilt() {
         return quilt;
     }
-
 }

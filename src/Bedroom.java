@@ -26,7 +26,7 @@ public class Bedroom {
     }
 
     public void makeBed(){
-        System.out.println("The bed is been made.")
+        System.out.println("The bed is been made.");
         bed.make();
     }
 }
