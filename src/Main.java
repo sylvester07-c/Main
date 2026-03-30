@@ -17,6 +17,9 @@
          SmartKitchen kitchen = new SmartKitchen();
          kitchen.getCoffeeMaker().setHasWorkToDo(true);
          kitchen.getCoffeeMaker().brewCoffee();
+
+         Movie movie = new Movie("Spider Man");
+         movie.watchMovie();
      }
 
      public static void printInfomation(String string){
