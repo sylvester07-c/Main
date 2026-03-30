@@ -20,6 +20,9 @@
 
          Movie movie = new Movie("Spider Man");
          movie.watchMovie();
+
+         Adventure adventure = new Adventure("Spider man");
+         adventure.watchMovie();
      }
 
      public static void printInfomation(String string){
