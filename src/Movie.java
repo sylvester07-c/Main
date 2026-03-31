@@ -48,8 +48,10 @@ class Comedy extends Movie{
     @Override
     public void watchMovie() {
         super.watchMovie();
-        String instanceType = this.getClass().getSimpleName();
-        System.out.println(title + " is a " + instanceType + " film." );
+        System.out.printf(".. %s%n".repeat(3),
+                "something funny happens",
+                "Something funnier happens",
+                "Happy Ending");
     }
 }
 
