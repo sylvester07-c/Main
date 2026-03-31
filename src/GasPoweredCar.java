@@ -15,4 +15,10 @@ public class GasPoweredCar extends  Car{
         return  noOfCylinders;
     }
 
+    @Override
+    public void drive() {
+        super.drive();
+        System.out.println("Driving a gas powered car");
+    }
+
 }

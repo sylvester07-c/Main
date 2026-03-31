@@ -44,6 +44,14 @@ public class Main {
              Movie movie2 = Movie.getMovie(type, title);
              movie2.watchMovie();
          }
+
+         Car car = new Car("Mustange");
+         System.out.println(car.getClass());
+         car.runEngine();
+
+         Car car1 = new GasPoweredCar("Pajero");
+         car1.drive();
+
      }
 
      public static void printInfomation(String string){

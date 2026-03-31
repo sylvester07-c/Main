@@ -5,6 +5,10 @@ public class Car {
         this.description = description;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
     public void startEngine() {
         System.out.println("Starting Engine");
     }
